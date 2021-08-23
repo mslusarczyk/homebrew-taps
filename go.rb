@@ -6,6 +6,7 @@ class Go < Formula
   sha256 "3a70e5055509f347c0fb831ca07a2bf3b531068f349b14a3c652e9b5b67beb5d"
   license "BSD-3-Clause"
   head "https://go.googlesource.com/go.git"
+  bottle :unneeded
 
   livecheck do
     url "https://golang.org/dl/"
